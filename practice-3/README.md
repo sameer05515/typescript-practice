@@ -11,3 +11,5 @@ VS Code TS Debugging: https://code.visualstudio.com/docs/typescript/typescript-d
 Unit test with Mocha https://dev.to/matteobruni/mocha-chai-with-typescript-37f
 
 Writing unit tests in TypeScript : https://chiragrupani.medium.com/writing-unit-tests-in-typescript-d4719b8a0a40
+
+Integrating TypeScript with Webpack : https://medium.com/jspoint/integrating-typescript-with-webpack-4534e840a02b

@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import {Calculator} from '../../src/EquivalentRupeeCalculator';
 
-describe('Options tests', () => { // the tests container
+describe('\n======================\nEquivalentRupeeCalculator tests\n=================\n', () => { // the tests container
     const calculate = Calculator.calculate;
     const add = (a:number,b:number)=> {return a+b};
 
