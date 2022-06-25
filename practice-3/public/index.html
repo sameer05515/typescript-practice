@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typescript Practice</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid;
+        }
+    </style>
+
+    <script src="../dist/bundle.js" defer></script>
+
+</head>
+
+<body>
+
+    ref year : <input type="number" id="refYrInp"> <br>
+    target year : <input type="number" id="tarYrInp"> <br>
+    amount : <input type="number" id="amtInp">
+    <button type="button" id="calculateNShowBtn"> Calculate</button>
+    <button type="button" id="calculateRangeNShowBtn"> Calculate Range</button>
+
+    <div id="result"></div>
+
+    <div id="GPDiv">
+        <table>
+            <thead>
+                <tr>
+                    <td>Year</td>
+                    <td>Price Per 10 GM</td>
+                </tr>                
+            </thead>
+            <tbody id="GPUL">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="positiveWorks">
+        <h1>Positive works and its effects</h1>
+        <ul id="positiveWorksUL">
+        </ul>
+    </div>
+
+
+
+
+</body>
+
+</html>

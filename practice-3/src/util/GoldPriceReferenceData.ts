@@ -231,7 +231,7 @@ export const referenceData: GoldPriceData[] = [
     },
     {
         year: 2022,
-        pricePer10gm: 52690
+        pricePer10gm: 53615.00
     }
 ]
 
