@@ -2,7 +2,7 @@ import { expect } from 'chai';
 import {SIPCalculator} from '../../src/SIPCalulator';
 import { SIPDataType } from '../../src/types/SIPDataType';
 
-describe('Options tests', () => { // the tests container
+describe('\n======================\nSIPCalulator tests\n=================\n', () => { // the tests container
     const calculate = SIPCalculator.calculate;
     const add = (a:number,b:number)=> {return a+b};
 
@@ -32,7 +32,7 @@ describe('Options tests', () => { // the tests container
         expect(calculate()).to.equal(800020.5);
     })
 
-    it('checking with default data', () =>{
+    it('checking with custom data', () =>{
         expect(calculate(inputTestData1)).to.equal(456015.30000000005);
     })
 

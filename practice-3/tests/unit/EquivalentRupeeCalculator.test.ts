@@ -1,8 +1,9 @@
 import { expect } from 'chai';
 import {Calculator} from '../../src/EquivalentRupeeCalculator';
 
-describe('Options tests', () => { // the tests container
+describe('\n======================\nEquivalentRupeeCalculator tests\n=================\n', () => { // the tests container
     const calculate = Calculator.calculate;
+    const calculateRange = Calculator.calculateRange;
     const add = (a:number,b:number)=> {return a+b};
 
     it('checking default options', () => { // the single test
@@ -27,5 +28,9 @@ describe('Options tests', () => { // the tests container
 
     it('checking invalid amount', () =>{
         expect(calculate(1964, 1964, -1)).to.equal(-1);
+    })
+
+    it('checking range amount', () =>{
+        expect(calculateRange(2002, 2020, 6)).to.equal(383.9485827717382);
     })
 });
