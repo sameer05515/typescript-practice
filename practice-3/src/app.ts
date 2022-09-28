@@ -79,6 +79,21 @@ export function calculateRangeNShow(){
 }
 
 
+/////////////////////
+/**Find unique characters in a string and the count of their occurrences*/
+function count_occurrence(text = "") {
+    const array_from_text = text.split("");
+    const result = {};
+    Array.from(new Set(array_from_text)).forEach(word => {
+        const { length } = array_from_text.filter(w => w === word);
+        result[word] = length;
+    });
+    return result;
+}
+const occurrences = count_occurrence("PremendraKumarSameerRaj");
+console.log(occurrences); // { P: 1, r: 4, e: 4, m: 3, n: 1, d: 1, a: 4, K: 1, u: 1, S: 1, R: 1, j: 1 }
+/////////////////////////
+
 
 
 
